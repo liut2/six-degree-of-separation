@@ -227,9 +227,9 @@ public class ChainFinder {
         
 
 		ChainFinder chainFinder = new ChainFinder();
-        chainFinder.loadMovie("movies.txt");
+        chainFinder.loadMovie("movies.list");
 	    
-        chainFinder.loadPerformer("actress.txt");
+        chainFinder.loadPerformer("actress.list");
         
         
         System.out.println("Enter the name of an actress");
